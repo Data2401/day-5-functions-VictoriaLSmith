@@ -13,38 +13,45 @@
 ### PART ONE - Review of Objects ####
 
 # Assign your name to a variable called `my_name`
+my_name <- 'Lindsey Smith'
 
 # Assign the number of pets you have to a variable called `num_pets`
+num_pets <- 0
 
 # Assign the title of your favorite book as a variable called `favorite_book`
-
+favorite_book <- "Uglies"
 # Create a variable called `radius`, which is your favorite number
-
+radius <- 16
 # Create a variable called `area`, which is the area of a circle with that radius.
-# Use the variable `radius` to calculate this. 
+# Use the variable `radius` to calculate this.
 # Use the built-in constant `pi` for pi.
+area <- pi *  radius
 
 
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
-# Think: how do you check if it's larger than 10? Assign that to your new variable name. 
+# Think: how do you check if it's larger than 10? Assign that to your new variable name.
 
+too_big <- area > 100
 
 # Display the variable `my_name`
-# Display the variable `area` 
+# Display the variable `area`
 # Display the variable `too_big`
+print(my_name)
+print(area)
+print(too_big)
 
 
 ### PART TWO ###
 
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name, using the variable you made above. (use the `nchar()` function)
-
+name_length <- nchar(my_name)
 # Print the number of letters in your name
-
+print(name_length)
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
-
+now_doing <- paste()
 # Make the `now_doing` variable upper case
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
